@@ -1,0 +1,143 @@
+/*chris Bohnet*/
+
+html{
+    font-size: 16px;
+}
+
+/*https://www.modularscale.com/?1&em&1.25*/
+/* 16px -- ratio 1.25 */
+body {
+    background-color: rgba(247,112,34,0.20);
+}
+article {
+column-count: 2;
+column-width: 200px;
+column-gap: 4em;
+}
+.clear{
+clear: left;
+}
+footer{
+   background-color: rgba(247,90,20,0.20);
+   padding: 20px;
+   clear: both;
+}
+img{
+border:1em solid white;
+
+}
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+    font-family: Quattrocento, Georgia, "Times New Roman", serif;
+
+}
+h1, h2, h3 {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 2.441em;
+    font-weight: 500;
+    line-height: 2.941em;
+    padding-bottom: .5em;
+    margin: 0em;
+    color: rgba(185,63,8,1.00);
+}
+h2 {
+    font-size: 1.563em;
+    font-weight: 500;
+    line-height: 1.863em;
+    padding-bottom: .3em;
+    margin: 0px;
+    color: rgba(185,63,8,1.00);
+}
+h3 {
+    font-size: 1.563em;
+    font-weight: 500;
+    line-height: 1.863em;
+    margin: 0;
+}
+li {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	font-weight: 300;
+}
+ol, ul {
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+ol {
+  background-color: rgba(208,76,6,1.0);	
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  border-radius: 15px;
+  padding: 10px;
+  list-style-position: inside;
+}
+
+ul {
+  border: 1px dashed rgba(233,90,16,1.0);
+  border-style: dashed;
+  border-width: 1px;
+  border-color: red;
+  border-radius: 15px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+address {
+    font-family: Quattrocento, Georgia, 'Times New Roman', serif;
+    font-size: .8em;
+    padding-bottom: .5em;
+
+}
+figure{
+margin: 10px;
+float: left;
+}
+figcaption {
+	font-size: .8em;
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	font-weight: 400;
+	padding: 10px 0px 20px;
+}
+.unique {
+	color: blue !important;
+}
+.url {
+	font-size: 1em;
+	line-height: .5em;
+}
+
+a[href^=mailto] {
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: 'Oswald';
+}
+a:visited {
+  color: red;
+  text-decoration: none;
+
+}
+a:hover {
+    color: green;
+}
+a:link {
+   text-decoration: none;
+}
+.sentence {
+    color: rgba(247,112,34,1.00) !important;
+    font-weight: 700;
+    font-size: 2.375em;
+    text-decoration: underline;
+
+}
+/*a {
+	font-family:'Oswald', Verdana, Arial, sans-serif;
+	text-decoration: none;
+}
+*/
