@@ -13,53 +13,49 @@
   height: 100%;
   width: 260px;
   position: absolute;
-  //z-index: 0;
-  //bottom: 0;
   left: 0;
   background-color: #111;
   overflow: hidden;
  // padding-top: 10px;
   float: left;
+  margin: 15px;
 }
 .rightside {
   height: 100%;
   width: 260px;
   position: absolute;
-  //z-index: 0;
-  //bottom: 0;
   right: 0;
   background-color: #111;
   overflow: hidden;
  // padding-top: 10px;
   float: right;
+  margin: 15px;
 }
 .main {
   display: flex;
-  margin-left: 160px;
-  margin-right: 160px; 
+  margin-left: 165px;
+  margin-right: 165px; 
   padding: 0px 100px;
 }
 .topHeader{
     align-content: center;
     text-align: center;
     color: #D21A1A;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-weight: 900;
-    font-size: 3.263em;
+    font-family: Quicksand, Verdana, Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 4.263em;
     line-height: 1.763em;
-//    border: thick black solid;
     background-color: lightblue;
-    margin: 0;
-      }
-
+    margin: 10px;
+}
 .headerRow{
     background-color: lightcyan;
     display: flex;
     align-content: center;
     text-align: center;
     height: 300px;
-
-      }
+    margin: 10px;
+}
 figure {
     display: block;
     width: 200px;
@@ -70,58 +66,47 @@ figure {
     background-color: lightcyan;
 
 }
-
 figure img {
     width: 190px;
     height: 155px;
     border: black solid;
     display: center;
 }
-
 figcaption {
   text-align: center;
   font-style: italic;
   margin: 0.3em;   
-  font-family: Helvetica; 
-}
+  font-family: Helvetica;     
+  line-height: 1.2em;
 
+}
 h3 {
-    //font-family: Quicksand, Verdana, Arial, sans-serif;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
-  //  font-weight: 500;
- //   padding-left: 10px;
+    font-family: Quicksand, Verdana, Arial, sans-serif;
     font-size: 1.563em;
     line-height: 2.063em;
-    margin: 0;
+    margin: 15px;
     background-color: lightblue;
     text-align: center;
-
 }
-
 p {
-    font-weight: 100;
-    line-height: 1.2em;
-    font-family: Comic Sans MS, Georgia, Arial, sans-serif;
+    line-height: 1.23em;
     font-size: 1.000em;
-    margin: 0.5em;
-
+    margin: .85em;
+    font-weight: 400;
+    font-family: Raleway, Verdana, Arial, sans-serif;
 }
 footer {
     align-content: center;
     text-align: center;
     color: black;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Quicksand, Verdana, Arial, sans-serif;  
     font-weight: 500;
     font-size: 1.050em;
     line-height: 1.763em;
-  //  border: thick black solid;
     background-color: lightblue;
-//    margin-left: 260px; 
-  //  padding: 0px 100px;
-//display: flex;
-  margin-left: 160px;
-  margin-right: 160px; 
-  padding: 0px 100px;
+    margin-left: 160px;
+    margin-right: 160px; 
+    padding: 0px 100px;
 
 }
 a[href^=mailto] {
