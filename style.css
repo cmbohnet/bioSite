@@ -14,7 +14,6 @@
   width: 260px;
   position: absolute;
   left: 0;
-  background-color: #111;
   overflow: hidden;
  // padding-top: 10px;
   float: left;
@@ -25,7 +24,6 @@
   width: 260px;
   position: absolute;
   right: 0;
-  background-color: #111;
   overflow: hidden;
  // padding-top: 10px;
   float: right;
